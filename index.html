@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="fr" data-lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yannis GONOS - Futur Ingénieur Robotique & IA - Building the bridge between AI and Physical Motion">
+    <title>Yannis GONOS | Futur Ingénieur Robotique & IA</title>
+    
+    <!-- Open Graph / SEO -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Yannis GONOS | Futur Ingénieur Robotique & IA">
+    <meta property="og:description" content="Passionné par la robotique et l'intelligence artificielle. Construire le pont entre l'IA et le mouvement physique.">
+    <meta property="og:image" content="assets/img/photo_yannis.webp">
+    <meta property="og:url" content="https://yannisgonos.com">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Yannis GONOS | Futur Ingénieur Robotique & IA">
+    <meta name="twitter:description" content="Passionné par la robotique et l'intelligence artificielle. Construire le pont entre l'IA et le mouvement physique.">
+    <meta name="twitter:image" content="assets/img/photo_yannis.webp">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/robot_icone.avif" type="image/avif">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- KaTeX for Math Rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="assets/img/robot_icone.avif" alt="Logo" class="logo-icon">
+                <span>Yannis GONOS</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link" data-fr="Accueil" data-en="Home">Accueil</a></li>
+                <li><a href="#projects" class="nav-link" data-fr="Projets" data-en="Projects">Projets</a></li>
+                <li><a href="#skills" class="nav-link" data-fr="Compétences" data-en="Skills">Compétences</a></li>
+                <li><a href="#journey" class="nav-link" data-fr="Parcours" data-en="Journey">Parcours</a></li>
+                <li><a href="#contact" class="nav-link" data-fr="Contact" data-en="Contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="lang-switch" id="langSwitch" aria-label="Switch language">
+                    <span class="lang-option active" data-lang="fr">FR</span>
+                    <span class="lang-separator">|</span>
+                    <span class="lang-option" data-lang="en">EN</span>
+                </button>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-subtitle" data-fr="Futur Ingénieur Robotique & IA" data-en="Future Robotics & AI Engineer">Futur Ingénieur Robotique & IA</p>
+                <h1 class="hero-title">Yannis GONOS</h1>
+                <p class="hero-tagline" data-fr="Construire le pont entre l'IA et le mouvement physique." data-en="Building the bridge between AI and Physical Motion.">Construire le pont entre l'IA et le mouvement physique.</p>
+                <p class="hero-description" data-fr="Passionné par la robotique et l'intelligence artificielle, j'ai forgé mon parcours à travers les défis. D'une formation universitaire classique vers l'excellence en ingénierie robotique, chaque obstacle a renforcé ma détermination. Ma capacité d'adaptation et ma résilience sont mes plus grands atouts pour transformer des concepts complexes en solutions concrètes." data-en="Passionate about robotics and artificial intelligence, I forged my path through challenges. From a traditional university education to excellence in robotics engineering, every obstacle strengthened my determination. My adaptability and resilience are my greatest assets in transforming complex concepts into concrete solutions.">Passionné par la robotique et l'intelligence artificielle, j'ai forgé mon parcours à travers les défis. D'une formation universitaire classique vers l'excellence en ingénierie robotique, chaque obstacle a renforcé ma détermination. Ma capacité d'adaptation et ma résilience sont mes plus grands atouts pour transformer des concepts complexes en solutions concrètes.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary" data-fr="Voir mes projets" data-en="View my projects">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary" data-fr="Me contacter" data-en="Contact me">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <img src="assets/img/photo_yannis.JPG" alt="Yannis GONOS" class="hero-image">
+                    <div class="hero-image-decoration"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#projects" class="scroll-indicator">
+                <span data-fr="Défiler" data-en="Scroll">Défiler</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M5 12l7 7 7-7"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-fr="Portfolio" data-en="Portfolio">Portfolio</span>
+                <h2 class="section-title" data-fr="Mes Projets" data-en="My Projects">Mes Projets</h2>
+                <p class="section-subtitle" data-fr="De la théorie à la pratique : découvrez comment je transforme des problèmes complexes en solutions fonctionnelles." data-en="From theory to practice: discover how I transform complex problems into functional solutions.">De la théorie à la pratique : découvrez comment je transforme des problèmes complexes en solutions fonctionnelles.</p>
+            </div>
+
+            <!-- Project A: Remote Robotics -->
+            <article class="project-card">
+                <div class="project-header">
+                    <div class="project-number">01</div>
+                    <h3 class="project-title" data-fr="Robotique à Distance" data-en="Remote Robotics">Robotique à Distance</h3>
+                    <span class="project-category" data-fr="Systèmes Embarqués • ROS 2" data-en="Embedded Systems • ROS 2">Systèmes Embarqués • ROS 2</span>
+                </div>
+                <div class="project-content">
+                    <div class="project-visual">
+                        <div class="project-images">
+                            <img src="assets/img/robot1.webp" alt="Robot en action" class="project-img main">
+                            <img src="assets/img/robot4.jpg" alt="Interface de contrôle" class="project-img secondary">
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-step">
+                            <div class="step-icon problem">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 8v4M12 16h.01"/>
+                                </svg>
+                            </div>
+                            <div class="step-content">
+                                <h4 data-fr="Problème" data-en="Problem">Problème</h4>
+                                <p data-fr="Comment contrôler un robot mobile à distance avec une latence minimale tout en maintenant une conscience situationnelle complète de l'environnement ?" data-en="How to control a mobile robot remotely with minimal latency while maintaining complete situational awareness of the environment?">Comment contrôler un robot mobile à distance avec une latence minimale tout en maintenant une conscience situationnelle complète de l'environnement ?</p>
+                            </div>
+                        </div>
+                        <div class="project-step">
+                            <div class="step-icon math">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/>
+                                </svg>
+                            </div>
+                            <div class="step-content">
+                                <h4 data-fr="Solution Mathématique" data-en="Mathematical Solution">Solution Mathématique</h4>
+                                <p data-fr="Implémentation d'un modèle cinématique différentiel couplé à un filtre de Kalman étendu (EKF) pour la fusion des données capteurs (IMU, encodeurs, LiDAR) et l'estimation d'état robuste." data-en="Implementation of a differential kinematic model coupled with an Extended Kalman Filter (EKF) for sensor data fusion (IMU, encoders, LiDAR) and robust state estimation.">Implémentation d'un modèle cinématique différentiel couplé à un filtre de Kalman étendu (EKF) pour la fusion des données capteurs (IMU, encodeurs, LiDAR) et l'estimation d'état robuste.</p>
+                            </div>
+                        </div>
+                        <div class="project-step">
+                            <div class="step-icon code">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="16 18 22 12 16 6"/>
+                                    <polyline points="8 6 2 12 8 18"/>
+                                </svg>
+                            </div>
+                            <div class="step-content">
+                                <h4 data-fr="Implémentation" data-en="Implementation">Implémentation</h4>
+                                <p data-fr="Architecture ROS 2 modulaire avec nodes dédiés : perception (LiDAR), localisation (SLAM), planification de trajectoire et contrôle bas niveau. Communication temps réel via DDS." data-en="Modular ROS 2 architecture with dedicated nodes: perception (LiDAR), localization (SLAM), trajectory planning, and low-level control. Real-time communication via DDS.">Architecture ROS 2 modulaire avec nodes dédiés : perception (LiDAR), localisation (SLAM), planification de trajectoire et contrôle bas niveau. Communication temps réel via DDS.</p>
+                            </div>
+                        </div>
+                        <div class="project-step">
+                            <div class="step-icon result">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                            </div>
+                            <div class="step-content">
+                                <h4 data-fr="Résultat" data-en="Result">Résultat</h4>
+                                <p data-fr="Robot fonctionnel contrôlable via interface web avec flux vidéo temps réel, cartographie 2D dynamique et latence de commande < 50ms sur réseau local." data-en="Functional robot controllable via web interface with real-time video stream, dynamic 2D mapping, and command latency < 50ms on local network.">Robot fonctionnel contrôlable via interface web avec flux vidéo temps réel, cartographie 2D dynamique et latence de commande < 50ms sur réseau local.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-architecture">
+                    <h4 data-fr="Architecture ROS 2" data-en="ROS 2 Architecture">Architecture ROS 2</h4>
+                    <div class="architecture-diagram">
+                        <div class="arch-node sensor">
+                            <span>Sensors</span>
+                            <small>LiDAR • IMU • Camera</small>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-node process">
+                            <span>Processing</span>
+                            <small>SLAM • EKF • Nav2</small>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-node control">
+                            <span>Control</span>
+                            <small>Motion • PID</small>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-node actuator">
+                            <span>Actuators</span>
+                            <small>Motors • Servos</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project B: Algorithm/Math -->
+            <article class="project-card">
+                <div class="project-header">
+                    <div class="project-number">02</div>
+                    <h3 class="project-title" data-fr="Algorithmique & Mathématiques" data-en="Algorithms & Mathematics">Algorithmique & Mathématiques</h3>
+                    <span class="project-category" data-fr="Cinématique • Filtrage" data-en="Kinematics • Filtering">Cinématique • Filtrage</span>
+                </div>
+                <div class="project-content">
+                    <div class="project-visual math-visual">
+                        <div class="math-block">
+                            <div class="math-title" data-fr="Filtre de Kalman - Équations" data-en="Kalman Filter - Equations">Filtre de Kalman - Équations</div>
+                            <div class="math-equations">
+                                <div class="equation">
+                                    <span class="eq-label" data-fr="Prédiction :" data-en="Prediction:">Prédiction :</span>
+                                    <span class="katex-eq">\(\hat{x}_{k|k-1} = F \cdot \hat{x}_{k-1} + B \cdot u_k\)</span>
+                                </div>
+                                <div class="equation">
+                                    <span class="eq-label" data-fr="Covariance :" data-en="Covariance:">Covariance :</span>
+                                    <span class="katex-eq">\(P_{k|k-1} = F \cdot P_{k-1} \cdot F^T + Q\)</span>
+                                </div>
+                                <div class="equation">
+                                    <span class="eq-label" data-fr="Gain :" data-en="Gain:">Gain :</span>
+                                    <span class="katex-eq">\(K_k = P_{k|k-1} \cdot H^T \cdot (H \cdot P_{k|k-1} \cdot H^T + R)^{-1}\)</span>
+                                </div>
+                                <div class="equation">
+                                    <span class="eq-label" data-fr="Mise à jour :" data-en="Update:">Mise à jour :</span>
+                                    <span class="katex-eq">\(\hat{x}_k = \hat{x}_{k|k-1} + K_k \cdot (z_k - H \cdot \hat{x}_{k|k-1})\)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="kinematic-diagram">
+                            <div class="robot-diagram">
+                                <div class="wheel left"></div>
+                                <div class="robot-body">
+                                    <span class="coord-label">θ</span>
+                                </div>
+                                <div class="wheel right"></div>
+                                <div class="velocity-vector">
+                                    <span>v</span>
+                                </div>
+                            </div>
+                            <div class="kinematic-equations">
+                                <span class="katex-eq">\(\dot{x} = v \cdot \cos(\theta)\)</span>
+                                <span class="katex-eq">\(\dot{y} = v \cdot \sin(\theta)\)</span>
+                                <span class="katex-eq">\(\dot{\theta} = \omega\)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <div class="project-step">
+                            <div class="step-icon problem">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 8v4M12 16h.01"/>
+                                </svg>
+                            </div>
+                            <div class="step-content">
+                                <h4 data-fr="Problème" data-en="Problem">Problème</h4>
+                                <p data-fr="Les capteurs sont bruyants et imprécis. Comment obtenir une estimation fiable de la position et de l'orientation d'un robot mobile ?" data-en="Sensors are noisy and inaccurate. How to obtain a reliable estimate of a mobile robot's position and orientation?">Les capteurs sont bruyants et imprécis. Comment obtenir une estimation fiable de la position et de l'orientation d'un robot mobile ?</p>
+                            </div>
+                        </div>
+                        <div class="project-step">
+                            <div class="step-icon math">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/>
+                                </svg>
+                            </div>
+                            <div class="step-content">
+                                <h4 data-fr="Solution Mathématique" data-en="Mathematical Solution">Solution Mathématique</h4>
+                                <p data-fr="Le filtre de Kalman fusionne les mesures de plusieurs capteurs en pondérant chaque source selon sa fiabilité (matrice de covariance). Il prédit l'état futur via le modèle cinématique, puis corrige avec les observations." data-en="The Kalman filter fuses measurements from multiple sensors by weighting each source according to its reliability (covariance matrix). It predicts the future state via the kinematic model, then corrects with observations.">Le filtre de Kalman fusionne les mesures de plusieurs capteurs en pondérant chaque source selon sa fiabilité (matrice de covariance). Il prédit l'état futur via le modèle cinématique, puis corrige avec les observations.</p>
+                            </div>
+                        </div>
+                        <div class="project-step">
+                            <div class="step-icon code">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="16 18 22 12 16 6"/>
+                                    <polyline points="8 6 2 12 8 18"/>
+                                </svg>
+                            </div>
+                            <div class="step-content">
+                                <h4 data-fr="Implémentation" data-en="Implementation">Implémentation</h4>
+                                <p data-fr="Classe C++ templée utilisant Eigen pour les opérations matricielles. Interface ROS 2 pour recevoir les topics capteurs et publier l'état estimé à 100Hz." data-en="Templated C++ class using Eigen for matrix operations. ROS 2 interface to receive sensor topics and publish estimated state at 100Hz.">Classe C++ templée utilisant Eigen pour les opérations matricielles. Interface ROS 2 pour recevoir les topics capteurs et publier l'état estimé à 100Hz.</p>
+                            </div>
+                        </div>
+                        <div class="project-step">
+                            <div class="step-icon result">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                            </div>
+                            <div class="step-content">
+                                <h4 data-fr="Résultat" data-en="Result">Résultat</h4>
+                                <p data-fr="Réduction de 70% de l'erreur de positionnement par rapport à l'odométrie seule. Localisation robuste même avec perte temporaire de capteurs." data-en="70% reduction in positioning error compared to odometry alone. Robust localization even with temporary sensor loss.">Réduction de 70% de l'erreur de positionnement par rapport à l'odométrie seule. Localisation robuste même avec perte temporaire de capteurs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-fr="Expertise" data-en="Expertise">Expertise</span>
+                <h2 class="section-title" data-fr="Compétences Techniques" data-en="Technical Skills">Compétences Techniques</h2>
+                <p class="section-subtitle" data-fr="Un stack complet pour concevoir, développer et déployer des systèmes robotiques autonomes." data-en="A complete stack to design, develop, and deploy autonomous robotic systems.">Un stack complet pour concevoir, développer et déployer des systèmes robotiques autonomes.</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Software -->
+                <div class="skill-category">
+                    <div class="skill-icon software">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3 data-fr="Software" data-en="Software">Software</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <span class="skill-name">C++ (Modern)</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 90%"></div></div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+                        </li>
+                        <li>
+                            <span class="skill-name">ROS 2</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Linux</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Hardware -->
+                <div class="skill-category">
+                    <div class="skill-icon hardware">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="4" y="4" width="16" height="16" rx="2"/>
+                            <rect x="9" y="9" width="6" height="6"/>
+                            <path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/>
+                        </svg>
+                    </div>
+                    <h3 data-fr="Hardware" data-en="Hardware">Hardware</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <span class="skill-name" data-fr="Microcontrôleurs" data-en="Microcontrollers">Microcontrôleurs</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+                        </li>
+                        <li>
+                            <span class="skill-name" data-fr="Capteurs (LiDAR, IMU)" data-en="Sensors (LiDAR, IMU)">Capteurs (LiDAR, IMU)</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+                        </li>
+                        <li>
+                            <span class="skill-name" data-fr="Impression 3D" data-en="3D Printing">Impression 3D</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 75%"></div></div>
+                        </li>
+                        <li>
+                            <span class="skill-name" data-fr="CAO / CAD" data-en="CAD">CAO / CAD</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 70%"></div></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Theory -->
+                <div class="skill-category">
+                    <div class="skill-icon theory">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+                        </svg>
+                    </div>
+                    <h3 data-fr="Théorie" data-en="Theory">Théorie</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <span class="skill-name" data-fr="Algèbre Linéaire" data-en="Linear Algebra">Algèbre Linéaire</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 90%"></div></div>
+                        </li>
+                        <li>
+                            <span class="skill-name" data-fr="Traitement du Signal" data-en="Signal Processing">Traitement du Signal</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+                        </li>
+                        <li>
+                            <span class="skill-name" data-fr="Automatique" data-en="Control Theory">Automatique</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+                        </li>
+                        <li>
+                            <span class="skill-name" data-fr="Probabilités & Stats" data-en="Probability & Stats">Probabilités & Stats</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tools-section">
+                <h4 data-fr="Outils & Technologies" data-en="Tools & Technologies">Outils & Technologies</h4>
+                <div class="tools-grid">
+                    <span class="tool-tag">ROS 2 Humble</span>
+                    <span class="tool-tag">Gazebo</span>
+                    <span class="tool-tag">OpenCV</span>
+                    <span class="tool-tag">Eigen</span>
+                    <span class="tool-tag">CMake</span>
+                    <span class="tool-tag">Docker</span>
+                    <span class="tool-tag">VSCode</span>
+                    <span class="tool-tag">Ubuntu</span>
+                    <span class="tool-tag">STM32</span>
+                    <span class="tool-tag">Arduino</span>
+                    <span class="tool-tag">Raspberry Pi</span>
+                    <span class="tool-tag">SolidWorks</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey" class="journey">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-fr="À propos" data-en="About">À propos</span>
+                <h2 class="section-title" data-fr="Parcours & Valeurs" data-en="Journey & Values">Parcours & Valeurs</h2>
+                <p class="section-subtitle" data-fr="L'ingénierie n'est pas qu'une question de code. Voici ce qui façonne ma vision et mon approche." data-en="Engineering is not just about code. Here's what shapes my vision and approach.">L'ingénierie n'est pas qu'une question de code. Voici ce qui façonne ma vision et mon approche.</p>
+            </div>
+
+            <!-- Academic Path -->
+            <div class="timeline-section">
+                <h3 class="timeline-title" data-fr="Parcours Académique" data-en="Academic Path">Parcours Académique</h3>
+                <p class="timeline-subtitle" data-fr="Du technicien vers l'ingénieur concepteur" data-en="From technician to design engineer">Du technicien vers l'ingénieur concepteur</p>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2025 - 2028</div>
+                        <div class="timeline-content">
+                            <span class="timeline-badge" data-fr="En cours" data-en="In progress">En cours</span>
+                            <h4 data-fr="Diplôme d'Ingénieur en Informatique" data-en="Computer Science Engineering Degree">Diplôme d'Ingénieur en Informatique</h4>
+                            <p class="timeline-focus" data-fr="Focus : Software Engineering, Systems Architecture, Applied Mathematics" data-en="Focus: Software Engineering, Systems Architecture, Applied Mathematics">Focus : Software Engineering, Systems Architecture, Applied Mathematics</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024 - 2025</div>
+                        <div class="timeline-content">
+                            <h4 data-fr="Bachelor Concepteur Développeur d'Applications (CDA)" data-en="Application Designer Developer Bachelor">Bachelor Concepteur Développeur d'Applications (CDA)</h4>
+                            <p class="timeline-focus" data-fr="Focus : Fullstack Development & Project Management" data-en="Focus: Fullstack Development & Project Management">Focus : Fullstack Development & Project Management</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022 - 2024</div>
+                        <div class="timeline-content">
+                            <h4 data-fr="BTS SIO, option SLAM" data-en="IT Services Diploma, Software Development">BTS SIO, option SLAM</h4>
+                            <p class="timeline-focus" data-fr="Focus : Software Development Foundations & Algorithms" data-en="Focus: Software Development Foundations & Algorithms">Focus : Software Development Foundations & Algorithms</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2019</div>
+                        <div class="timeline-content">
+                            <h4 data-fr="Baccalauréat Scientifique (S)" data-en="Scientific Baccalaureate">Baccalauréat Scientifique (S)</h4>
+                            <p class="timeline-focus" data-fr="Spécialité Mathématiques" data-en="Mathematics Specialization">Spécialité Mathématiques</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Experience -->
+            <div class="timeline-section experience">
+                <h3 class="timeline-title" data-fr="Expériences Professionnelles" data-en="Professional Experience">Expériences Professionnelles</h3>
+                <p class="timeline-subtitle" data-fr="Le pont vers la robotique" data-en="The bridge to robotics">Le pont vers la robotique</p>
+                <div class="experience-grid">
+                    <article class="experience-card highlight">
+                        <div class="experience-header">
+                            <div class="experience-company">IVECO</div>
+                            <div class="experience-period">Nov. 2025 – <span data-fr="Présent" data-en="Present">Présent</span></div>
+                        </div>
+                        <h4 data-fr="Alternant Développeur Software" data-en="Software Developer Apprentice">Alternant Développeur Software</h4>
+                        <p class="experience-context" data-fr="Leader mondial de l'automobile industrielle" data-en="World leader in industrial automotive">Leader mondial de l'automobile industrielle</p>
+                        <p data-fr="Développement et optimisation d'applications métiers au sein d'un écosystème industriel complexe." data-en="Development and optimization of business applications within a complex industrial ecosystem.">Développement et optimisation d'applications métiers au sein d'un écosystème industriel complexe.</p>
+                        <div class="experience-link highlight">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+                            <span data-fr="Lien Robotique : Rigueur logicielle dans un secteur lié à la mobilité et aux transports" data-en="Robotics Link: Software rigor in a sector related to mobility and transportation">Lien Robotique : Rigueur logicielle dans un secteur lié à la mobilité et aux transports</span>
+                        </div>
+                        <div class="experience-stack">
+                            <span>Symfony</span><span>PHP</span><span>SQL</span>
+                        </div>
+                    </article>
+
+                    <article class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-company">Insights DBM</div>
+                            <div class="experience-period">Sept. 2024 – Août 2025</div>
+                        </div>
+                        <h4 data-fr="Alternant Développeur .NET (C#)" data-en=".NET Developer Apprentice (C#)">Alternant Développeur .NET (C#)</h4>
+                        <p class="experience-context" data-fr="Applications critiques pour le secteur vétérinaire" data-en="Critical applications for the veterinary sector">Applications critiques pour le secteur vétérinaire</p>
+                        <p data-fr="Migration et maintenance d'un logiciel complexe sous Xamarin. Développement d'une nouvelle solution sous Blazor/C#." data-en="Migration and maintenance of complex software under Xamarin. Development of a new solution under Blazor/C#.">Migration et maintenance d'un logiciel complexe sous Xamarin. Développement d'une nouvelle solution sous Blazor/C#.</p>
+                        <div class="experience-link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+                            <span data-fr="Lien Robotique : Maîtrise avancée du C# (pont vers C++) et conception UI/UX" data-en="Robotics Link: Advanced C# mastery (bridge to C++) and UI/UX design">Lien Robotique : Maîtrise avancée du C# (pont vers C++) et conception UI/UX</span>
+                        </div>
+                        <div class="experience-stack">
+                            <span>C#</span><span>.NET</span><span>Blazor</span><span>Xamarin</span><span>Figma</span>
+                        </div>
+                    </article>
+
+                    <article class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-company">CEA</div>
+                            <div class="experience-period">Sept. 2022 – Août 2024</div>
+                        </div>
+                        <h4 data-fr="Alternant Business Intelligence & IA" data-en="Business Intelligence & AI Apprentice">Alternant Business Intelligence & IA</h4>
+                        <p class="experience-context" data-fr="Commissariat à l'Énergie Atomique – Recherche nucléaire et technologique de haut niveau" data-en="French Atomic Energy Commission – High-level nuclear and technological research">Commissariat à l'Énergie Atomique – Recherche nucléaire et technologique de haut niveau</p>
+                        <p data-fr="Data Engineering, automatisation et travaux exploratoires sur les LLM (Large Language Models). Création de scripts de scraping en Python." data-en="Data Engineering, automation and exploratory work on LLMs (Large Language Models). Creation of Python scraping scripts.">Data Engineering, automatisation et travaux exploratoires sur les LLM (Large Language Models). Création de scripts de scraping en Python.</p>
+                        <div class="experience-link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+                            <span data-fr="Lien Robotique : IA et Data Engineering, indispensables pour la robotique autonome" data-en="Robotics Link: AI and Data Engineering, essential for autonomous robotics">Lien Robotique : IA et Data Engineering, indispensables pour la robotique autonome</span>
+                        </div>
+                        <div class="experience-stack">
+                            <span>Python</span><span>Power BI</span><span>DigDash</span><span>LLM</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Values Grid -->
+            <h3 class="values-title" data-fr="Valeurs & Atouts" data-en="Values & Assets">Valeurs & Atouts</h3>
+            <div class="journey-grid">
+                <!-- Sport -->
+                <article class="journey-card sport">
+                    <div class="journey-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+                            <path d="M2 12h20"/>
+                        </svg>
+                    </div>
+                    <div class="journey-content">
+                        <h3 data-fr="Sport de Haut Niveau" data-en="High-Level Sports">Sport de Haut Niveau</h3>
+                        <span class="journey-subtitle">Handball</span>
+                        <p data-fr="Mon parcours sportif au handball m'a enseigné des valeurs fondamentales qui transcendent le terrain :" data-en="My sports journey in handball taught me fundamental values that transcend the field:">Mon parcours sportif au handball m'a enseigné des valeurs fondamentales qui transcendent le terrain :</p>
+                        <ul class="journey-values">
+                            <li>
+                                <strong data-fr="Discipline" data-en="Discipline">Discipline</strong>
+                                <span data-fr="— Entraînement rigoureux, constance dans l'effort" data-en="— Rigorous training, consistency in effort">— Entraînement rigoureux, constance dans l'effort</span>
+                            </li>
+                            <li>
+                                <strong data-fr="Performance sous pression" data-en="Performance under pressure">Performance sous pression</strong>
+                                <span data-fr="— Garder son calme dans les moments décisifs" data-en="— Staying calm in decisive moments">— Garder son calme dans les moments décisifs</span>
+                            </li>
+                            <li>
+                                <strong data-fr="Esprit d'équipe" data-en="Team spirit">Esprit d'équipe</strong>
+                                <span data-fr="— Collaboration, communication, confiance mutuelle" data-en="— Collaboration, communication, mutual trust">— Collaboration, communication, confiance mutuelle</span>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Cuisine -->
+                <article class="journey-card cuisine">
+                    <div class="journey-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6z"/>
+                            <line x1="6" y1="17" x2="18" y2="17"/>
+                        </svg>
+                    </div>
+                    <div class="journey-content">
+                        <h3 data-fr="Gastronomie" data-en="Gastronomy">Gastronomie</h3>
+                        <span class="journey-subtitle" data-fr="CAP Cuisine" data-en="Culinary Certificate">CAP Cuisine</span>
+                        <p data-fr="Obtenir un CAP Cuisine en parallèle de mes études d'ingénierie démontre ma capacité à maîtriser des domaines radicalement différents :" data-en="Obtaining a Culinary Certificate alongside my engineering studies demonstrates my ability to master radically different fields:">Obtenir un CAP Cuisine en parallèle de mes études d'ingénierie démontre ma capacité à maîtriser des domaines radicalement différents :</p>
+                        <ul class="journey-values">
+                            <li>
+                                <strong data-fr="Précision" data-en="Precision">Précision</strong>
+                                <span data-fr="— Chaque gramme compte, chaque geste est mesuré" data-en="— Every gram counts, every gesture is measured">— Chaque gramme compte, chaque geste est mesuré</span>
+                            </li>
+                            <li>
+                                <strong data-fr="Rigueur" data-en="Rigor">Rigueur</strong>
+                                <span data-fr="— Respecter les processus, les temps, les températures" data-en="— Respecting processes, times, temperatures">— Respecter les processus, les temps, les températures</span>
+                            </li>
+                            <li>
+                                <strong data-fr="Artisanat" data-en="Craftsmanship">Artisanat</strong>
+                                <span data-fr="— Transformer la matière brute en œuvre finie" data-en="— Transforming raw material into finished work">— Transformer la matière brute en œuvre finie</span>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+
+            <div class="quote-block">
+                <blockquote>
+                    <p data-fr="« La diversité des expériences forge la créativité. Chaque domaine maîtrisé apporte une nouvelle perspective sur les problèmes complexes. »" data-en=""The diversity of experiences forges creativity. Each mastered domain brings a new perspective on complex problems."">« La diversité des expériences forge la créativité. Chaque domaine maîtrisé apporte une nouvelle perspective sur les problèmes complexes. »</p>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-fr="Collaborons" data-en="Let's collaborate">Collaborons</span>
+                <h2 class="section-title" data-fr="Contact" data-en="Contact">Contact</h2>
+                <p class="section-subtitle" data-fr="Intéressé par mon profil ? Discutons de votre projet ou opportunité." data-en="Interested in my profile? Let's discuss your project or opportunity.">Intéressé par mon profil ? Discutons de votre projet ou opportunité.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/yannis-gonos-49b23423a/" target="_blank" rel="noopener noreferrer" class="contact-card linkedin">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-value" data-fr="Mon profil professionnel" data-en="My professional profile">Mon profil professionnel</span>
+                        </div>
+                        <div class="contact-arrow">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M7 17L17 7M17 7H7M17 7v10"/>
+                            </svg>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/GnsYnns" target="_blank" rel="noopener noreferrer" class="contact-card github">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">GitHub</span>
+                            <span class="contact-value" data-fr="Mes projets open source" data-en="My open source projects">Mes projets open source</span>
+                        </div>
+                        <div class="contact-arrow">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M7 17L17 7M17 7H7M17 7v10"/>
+                            </svg>
+                        </div>
+                    </a>
+
+                    <a href="mailto:gonosyannis@gmail.com" class="contact-card email">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                                <path d="M22 6l-10 7L2 6"/>
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value" data-fr="Envoyez-moi un message" data-en="Send me a message">Envoyez-moi un message</span>
+                        </div>
+                        <div class="contact-arrow">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M7 17L17 7M17 7H7M17 7v10"/>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="contact-cta">
+                    <p data-fr="Disponible pour des opportunités en robotique, systèmes embarqués et IA appliquée." data-en="Available for opportunities in robotics, embedded systems, and applied AI.">Disponible pour des opportunités en robotique, systèmes embarqués et IA appliquée.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/img/robot_icone.avif" alt="Logo" class="footer-logo">
+                    <span>Yannis GONOS</span>
+                </div>
+                <p class="footer-copyright">© 2026 Yannis GONOS. <span data-fr="Tous droits réservés." data-en="All rights reserved.">Tous droits réservés.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Language Switch
+        const langSwitch = document.getElementById('langSwitch');
+        const langOptions = langSwitch.querySelectorAll('.lang-option');
+        
+        function setLanguage(lang) {
+            document.documentElement.setAttribute('data-lang', lang);
+            document.documentElement.setAttribute('lang', lang);
+            
+            langOptions.forEach(opt => {
+                opt.classList.toggle('active', opt.dataset.lang === lang);
+            });
+            
+            document.querySelectorAll('[data-fr][data-en]').forEach(el => {
+                el.textContent = el.getAttribute(`data-${lang}`);
+            });
+            
+            localStorage.setItem('preferred-lang', lang);
+        }
+        
+        langSwitch.addEventListener('click', (e) => {
+            const option = e.target.closest('.lang-option');
+            if (option) {
+                setLanguage(option.dataset.lang);
+            }
+        });
+        
+        // Load saved language preference
+        const savedLang = localStorage.getItem('preferred-lang');
+        if (savedLang) {
+            setLanguage(savedLang);
+        }
+        
+        // Mobile Navigation Toggle
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+        
+        // Close mobile menu on link click
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+        
+        // Navbar scroll effect
+        let lastScroll = 0;
+        const navbar = document.querySelector('.navbar');
+        
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+            
+            lastScroll = currentScroll;
+        });
+        
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.project-card, .skill-category, .journey-card, .contact-card').forEach(el => {
+            observer.observe(el);
+        });
+        
+        // KaTeX Auto-render
+        document.addEventListener("DOMContentLoaded", function() {
+            if (typeof renderMathInElement !== 'undefined') {
+                renderMathInElement(document.body, {
+                    delimiters: [
+                        {left: '\\(', right: '\\)', display: false},
+                        {left: '\\[', right: '\\]', display: true}
+                    ],
+                    throwOnError: false
+                });
+            }
+        });
+    </script>
+</body>
+</html>
