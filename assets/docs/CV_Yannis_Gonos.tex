@@ -1,0 +1,111 @@
+\documentclass[10pt,a4paper,sans]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[margin=1.0cm]{geometry} % Marges réduites à 1cm pour le "one-page"
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+% --- Couleurs ---
+\definecolor{primary}{RGB}{0, 75, 145}
+\hypersetup{colorlinks=true, urlcolor=primary}
+\setlength{\parindent}{0pt}
+
+% --- Macros optimisées pour l'espace ---
+\newcommand{\sectiontitle}[1]{%
+    \vspace{6pt} % Réduit de 10pt à 6pt
+    {\large\bfseries\color{primary}\uppercase{#1}} % Large au lieu de Large
+    \par\vspace{2pt}
+    \hrule height 0.8pt
+    \par\vspace{5pt} % Réduit de 10pt à 5pt
+}
+
+\newcommand{\experience}[4]{%
+    \textbf{#1} | #2 \hfill \textit{#3} \\
+    \textit{#4} \vspace{2pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE COMPACT ---
+\begin{center}
+    {\Huge \bfseries Yannis GONOS} \\
+    \vspace{3pt}
+    \small
+    \faMapMarker* Nantes \quad \faPhone* 07 81 00 66 79 \quad \faEnvelope \href{mailto:gonosyannis@gmail.com}{gonosyannis@gmail.com} \\
+    \faLinkedin \href{https://www.linkedin.com/in/yannis-gonos-49b23423a/}{LinkedIn} \quad \faGithub \href{https://github.com/GnsYnns}{GitHub} \quad \faGlobe Portfolio
+\end{center}
+
+\begin{center}
+    \colorbox{primary}{\color{white} \bfseries \enskip ALTERNANT INGÉNIEUR EN INFORMATIQUE | IA \& DATA \enskip}
+\end{center}
+
+% --- ACCROCHE ---
+\sectiontitle{Profil}
+Passionné par la robotique et l'intelligence artificielle, j'ai forgé mon parcours à travers des environnements industriels et de recherche complexes. Ma capacité d'adaptation et ma résilience me permettent de transformer des concepts théoriques (LLM, algorithmique) en solutions logicielles concrètes et performantes.
+
+% --- COMPÉTENCES ---
+\sectiontitle{Compétences Techniques}
+\begin{itemize}[leftmargin=*, label=\textbullet]
+    \item \textbf{Langages :} Python, C, C++ (système/back), PHP, JavaScript, HTML/CSS/SCSS.
+    \item \textbf{Frameworks :} Blazor (.NET), Symfony (PHP), Next.js (React).
+    \item \textbf{IA \& Data :} LLM (Large Language Models), Scraping Python, Power BI.
+    \item \textbf{Outils \& DevOps :} Docker, Git, Méthodes Agiles (Scrum), Design Patterns.
+    \item \textbf{Bases de données :} PostgreSQL, MySQL.
+\end{itemize}
+
+% --- EXPÉRIENCES PROFESSIONNELLES ---
+\sectiontitle{Expériences Professionnelles}
+
+\experience{IVECO}{Alternant Développeur Software}{Nov. 2025 -- Présent}{Leader mondial de l'automobile industrielle}
+\begin{itemize}[noitemsep, topsep=2pt]
+    \item \textbf{Software Development :} Conception et optimisation d'applications métiers critiques au sein d'un écosystème industriel complexe (Automobile/Logistique).
+    \item \textbf{Standard Industriel :} Mise en œuvre d'une rigueur logicielle accrue adaptée aux exigences de mobilité et de transport (cycle en V, qualité code).
+    \item \textbf{Stack :} \textit{Symfony, PHP 8, PostgreSQL, Architecture MVC.}
+\end{itemize}
+
+\experience{INSIGHTS DBM}{Alternant Développeur .NET (C\#)}{Sept. 2024 -- Août 2025}{Applications critiques pour le secteur vétérinaire}
+\begin{itemize}[noitemsep, topsep=2pt]
+    \item \textbf{Migration Tech :} Pilotage technique de la transition d'un logiciel complexe sous Xamarin vers une solution moderne Blazor/C\#.
+    \item \textbf{Conception \& Architecture :} Élaboration de l'UI/UX sous Figma et implémentation d'architectures robustes avec une réflexion sur la performance (pont vers C++).
+    \item \textbf{Stack :} \textit{C\#, .NET Core, Blazor, Xamarin, Figma, Git.}
+\end{itemize}
+
+\experience{CEA}{Alternant Business Intelligence \& IA}{Sept. 2022 -- Août 2024}{Commissariat à l'Énergie Atomique - Recherche nucléaire et technologique}
+\begin{itemize}[noitemsep, topsep=2pt]
+    \item \textbf{Data Engineering \& IA :} Conception de pipelines d'automatisation et travaux exploratoires sur l'intégration de LLM pour l'analyse de données complexes.
+    \item \textbf{Collecte de données :} Développement de moteurs de scraping robustes en Python pour l'acquisition et le traitement de données stratégiques en source ouverte.
+    \item \textbf{Data Visualization :} Élaboration de solutions décisionnelles (Dashboards) dédiées au pilotage RH et au contrôle de gestion financier (Financial Control).
+    \item \textbf{Stack :} \textit{Python (Pandas, Scrapy), Power BI, DigDash, LLM (OpenAI/Mistral API).}
+\end{itemize}
+
+% --- FORMATION ---
+\sectiontitle{Formation}
+
+\experience{Diplôme d'Ingénieur en Informatique}{Nantes, France}{2025 -- 2028}{Spécialisation Systèmes Complexes \& IA}
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item \textbf{Matières clés :} Architecture des systèmes, Algorithmique avancée, Mathématiques appliquées, Machine Learning.
+\end{itemize}
+
+\experience{Bachelor Concepteur Développeur d'Applications (CDA)}{Diplôme d'État}{2024 -- 2025}{Focus : Développement Fullstack \& Gestion de projet Agile}
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item Major de promotion sur les modules de conception logicielle.
+\end{itemize}
+
+\experience{BTS SIO, option SLAM}{Solutions Logicielles et Applications Métiers}{2022 -- 2024}{Focus : Fondamentaux du développement, Algorithmique et Bases de données}
+
+\experience{Baccalauréat Scientifique (S)}{Spécialité Mathématiques}{2019}{Mention européenne (Anglais)}
+
+% --- COMPLÉMENTS ---
+\sectiontitle{Langues \& Intérêts}
+\begin{itemize}[leftmargin=*, label=\textbullet]
+    \item \textbf{Anglais :} Technique (TOEIC prévu pour 2027).
+    \item \textbf{Handball :} Pratique en compétition et arbitrage (gestion du stress, prise de décision).
+    \item \textbf{Gastronomie \& Randonnée :} Cuisine créative, randonnées solo en bivouac (autonomie et préparation).
+\end{itemize}
+
+\end{document}
