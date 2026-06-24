@@ -1,52 +1,48 @@
 # Hi, I'm Yannis GONOS 👋
 
-### 🤖 Software Engineering Student | AI & Data Enthusiast
+### 🤖 Software Engineering Apprentice — Generalist Profile
 
-I am a Computer Science Engineering student specializing in Software Architecture and Artificial Intelligence. With strong professional experiences in advanced research (CEA) and industrial environments (IVECO), I focus on building robust backend systems, data pipelines, and exploring applied AI. My ultimate goal is to craft the software intelligence that drives complex industrial and robotic systems.
+I am a second-year Computer Science Engineering student at EFREI Paris (Big Data & Machine Learning major), with a versatile profile covering software development, artificial intelligence, data, systems and networks. With 3 years of apprenticeship in varied environments (CEA, IVECO, Insights DBM), I am looking for an apprenticeship in generalist software engineering. Work-study schedule: 3 days in company / 2 days at school.
 
-- 🔭 **Currently working on:** Stats Intelligence (BI platform with LLM-powered insights) & Nantes City Bot (RAG agent).
-- 🎓 **Education:** Engineering Degree in Computer Science (2025 - 2028).
-- ⚙️ **Core Stack:** Python, C/C++ (System/Back), C# (.NET), PHP (Symfony), Docker, Git.
-- 🧠 **AI & Data:** LLM Integration (OpenAI/Mistral), RAG Architecture, Statistical Analysis, Business Intelligence.
+- 🔭 **Currently working on:** Handball Tracking (real-time player detection with YOLO/C++) and HomeLab (Raspberry Pi home automation).
+- 🎓 **Education:** EFREI Paris (2026 - 2028) | 3iL Engineering School, Nantes (2025 - 2026) | Bachelor CDA (2024 - 2025) | BTS SIO SLAM (2022 - 2024).
+- ⚙️ **Core Stack:** Python, C/C++, C# (.NET), PHP (Symfony), JavaScript, SQL, Shell/Bash.
+- 🧠 **AI & Data:** Machine Learning, Neural Networks, LLM, RAG, Computer Vision (YOLO), Power BI, DigDash, Data Pipelines, ETL, Web Scraping.
+- 🌐 **Systems & Networks:** Unix/Linux, TCP/IP, Cybersecurity, Docker, CI/CD, DevOps.
 - 🏐 **Handball:** Competitive player and certified referee.
-- 🍳 **Culinary Arts:** Passionate about gastronomy and cooking.
-- 🏔️ **Outdoor:** Hiking and photography enthusiast.
+- 🤖 **Interests:** Drones & robotics, autonomous systems, embedded AI, home automation.
 
 ---
 
 ### 🚀 Featured Projects
 
-#### 🏀 Handball Tactician
-High-performance C++20 engine for real-time player tracking. Microservices architecture with gRPC, OpenCV for computer vision, and Next.js frontend.
-- **Status:** Paused (POC validated)
-- **Stack:** C++20, gRPC, OpenCV, Next.js, Docker
+#### 🏀 Handball Tracking
+Real-time player detection system on video streams. Deployment of the YOLO model in C++ for computer vision.
+- **Status:** In development
+- **Stack:** C++, YOLO, OpenCV, Computer Vision
 - **GitHub:** [Handball-Tactician](https://github.com/GnsYnns/Handball-Tactician)
 
-#### 📊 Stats Intelligence
-Advanced statistical analysis platform for delivery data with automated LaTeX PDF report generation. Evolving into a complete BI tool with LLM-powered insights.
-- **Status:** Active Development
-- **Stack:** Python, Pandas, NumPy, SciPy, Matplotlib, LaTeX, Streamlit, LLM
-- **Features:** Hypothesis testing, confidence intervals, correlation analysis
-
-#### 🤖 Nantes City Bot
-Intelligent conversational agent connected to Nantes Open Data APIs. RAG architecture for real-time answers about transport, parking, events, and municipal services.
-- **Status:** Roadmap 2026
-- **Stack:** LangChain, FastAPI, ChromaDB, RAG
+#### 🏠 HomeLab
+Personal home automation infrastructure on Raspberry Pi with Home Assistant, network management and embedded systems.
+- **Status:** Active
+- **Stack:** Raspberry Pi, Home Assistant, Linux, Networking, Embedded Systems
 
 ---
 
 ### 🛠 Skills & Tools
 
-- **Languages:** Python, C, C++, C#, JavaScript, PHP, SQL
-- **Frameworks:** Symfony, Blazor, Next.js, LangChain, Streamlit
-- **Data & AI:** LLMs, RAG, Data Engineering, Statistical Analysis, Dashboards
-- **DevOps & Architecture:** Docker, Git, Agile (Scrum), MVC, Microservices
+- **Programming Languages:** Python, C, C++, C#, PHP, JavaScript, SQL, Shell/Bash
+- **Software Development:** Software Engineering, OOP, Design Patterns, MVC, Microservices, APIs, Symfony, .NET Core, Blazor, Xamarin
+- **AI & Data:** Machine Learning, Neural Networks, LLM, RAG, Computer Vision (YOLO), Power BI, DigDash, Dashboards, ETL, Web Scraping
+- **Systems, Networks & Infrastructure:** Unix/Linux, TCP/IP, Cybersecurity, Docker, Containerization, CI/CD, DevOps
+- **Databases:** PostgreSQL, MySQL
+- **Methodologies & Tools:** Agile, Scrum, Project Management, UML, Git, GitHub
 
 ---
 
 ### 🎨 Portfolio
 
-Modern dark-themed portfolio with orange accent colors, showcasing my projects and skills.
+Modern dark-themed portfolio with orange accent colors, showcasing my projects, skills and journey.
 - **Design:** Dark theme with vibrant orange accents
 - **Features:** Bilingual (FR/EN), responsive, animated cards
 - **Tech:** Vanilla HTML/CSS/JS, modern CSS Grid/Flexbox
@@ -54,6 +50,8 @@ Modern dark-themed portfolio with orange accent colors, showcasing my projects a
 ---
 
 ### 📊 Stats & Contact
+
+📧 [gonosyannis@gmail.com](mailto:gonosyannis@gmail.com) | 📱 +33 7 81 00 66 79
 
 [GitHub](https://github.com/GnsYnns) | [LinkedIn](https://www.linkedin.com/in/yannis-gonos-49b23423a/) | [Portfolio](https://gnsynns.github.io/gnsynns/)
 
@@ -65,53 +63,49 @@ Modern dark-themed portfolio with orange accent colors, showcasing my projects a
 
 # Enchanté, je suis Yannis GONOS 👋
 
-### 🤖 Étudiant Ingénieur en Informatique | Spécialité IA & Data
+### 🤖 Apprenti Ingénieur en Informatique — Profil généraliste
 
-Passionné par l'intelligence artificielle et l'ingénierie logicielle. Fort d'expériences en centre de recherche (CEA) et en milieu industriel (IVECO), je me spécialise dans le développement backend, l'ingénierie de données et l'intégration de modèles d'IA. Mon objectif : créer l'intelligence logicielle robuste qui permet de piloter les systèmes complexes, avec un fort attrait pour l'industrie et la robotique.
+Élève-ingénieur en 2e année à l'EFREI Paris (Majeure Big Data & Machine Learning), avec un profil polyvalent couvrant le développement logiciel, l'intelligence artificielle, la data, les systèmes et les réseaux. Fort de 3 ans d'alternance dans des environnements variés (CEA, IVECO, Insights DBM), je recherche une alternance en ingénierie informatique généraliste. Rythme d'alternance : 3 jours entreprise / 2 jours école.
 
-- 🔭 **Projets actuels :** Stats Intelligence (plateforme BI avec insights LLM) & Nantes City Bot (agent RAG).
-- 🎓 **Formation :** Diplôme d'Ingénieur en Informatique (2025 - 2028).
-- ⚙️ **Stack Technique :** Python, C/C++ (Système/Back), C# (.NET), PHP (Symfony), Docker, Git.
-- 🧠 **IA & Data :** Intégration LLM, Architecture RAG, Analyse Statistique, Business Intelligence.
+- 🔭 **Projets actuels :** Handball Tracking (détection de joueurs en temps réel avec YOLO/C++) et HomeLab (domotique sur Raspberry Pi).
+- 🎓 **Formation :** EFREI Paris (2026 - 2028) | 3iL École d'ingénieurs, Nantes (2025 - 2026) | Bachelor CDA (2024 - 2025) | BTS SIO SLAM (2022 - 2024).
+- ⚙️ **Stack Technique :** Python, C/C++, C# (.NET), PHP (Symfony), JavaScript, SQL, Shell/Bash.
+- 🧠 **IA & Data :** Machine Learning, Réseaux de neurones, LLM, RAG, Vision par ordinateur (YOLO), Power BI, DigDash, Pipelines de données, ETL, Scraping.
+- 🌐 **Systèmes & Réseaux :** Unix/Linux, TCP/IP, Sécurité informatique, Docker, CI/CD, DevOps.
 - 🏐 **Handball :** Joueur en compétition et arbitre certifié.
-- 🍳 **Gastronomie :** Passionné de cuisine et d'art culinaire.
-- 🏔️ **Nature :** Adepte de randonnée et de photographie.
+- 🤖 **Centres d'intérêt :** Drones et robotique, systèmes autonomes, IA embarquée, domotique.
 
 ---
 
 ### 🚀 Projets Phares
 
-#### 🏀 Handball Tactician
-Moteur haute performance C++20 pour le tracking de joueurs en temps réel. Architecture microservices avec gRPC, OpenCV pour computer vision, et frontend Next.js.
-- **Statut :** En pause (POC validé)
-- **Stack :** C++20, gRPC, OpenCV, Next.js, Docker
+#### 🏀 Handball Tracking
+Système de détection de joueurs sur flux vidéo en temps réel. Déploiement du modèle YOLO en C++ pour la vision par ordinateur.
+- **Statut :** En développement
+- **Stack :** C++, YOLO, OpenCV, Vision par ordinateur
 - **GitHub :** [Handball-Tactician](https://github.com/GnsYnns/Handball-Tactician)
 
-#### 📊 Stats Intelligence
-Plateforme d'analyse statistique avancée de données de livraison avec génération automatique de rapports PDF LaTeX. En évolution vers un outil BI complet avec insights LLM.
-- **Statut :** Développement actif
-- **Stack :** Python, Pandas, NumPy, SciPy, Matplotlib, LaTeX, Streamlit, LLM
-- **Fonctionnalités :** Tests d'hypothèses, intervalles de confiance, analyse de corrélation
-
-#### 🤖 Nantes City Bot
-Agent conversationnel intelligent connecté aux APIs Open Data de Nantes. Architecture RAG pour réponses en temps réel sur les transports, parkings, événements et services municipaux.
-- **Statut :** Roadmap 2026
-- **Stack :** LangChain, FastAPI, ChromaDB, RAG
+#### 🏠 HomeLab
+Infrastructure domotique personnelle sur Raspberry Pi avec Home Assistant, gestion réseau et systèmes embarqués.
+- **Statut :** Actif
+- **Stack :** Raspberry Pi, Home Assistant, Linux, Réseau, Systèmes embarqués
 
 ---
 
 ### 🛠 Compétences
 
-- **Langages :** Python, C, C++, C#, JavaScript, PHP, SQL
-- **Frameworks :** Symfony, Blazor, Next.js, LangChain, Streamlit
-- **Data & IA :** LLMs, RAG, Data Engineering, Analyse Statistique, Dashboards
-- **DevOps & Architecture :** Docker, Git, Méthodes Agiles (Scrum), MVC, Microservices
+- **Langages de programmation :** Python, C, C++, C#, PHP, JavaScript, SQL, Shell/Bash
+- **Développement logiciel :** Génie logiciel, POO, Design Patterns, MVC, Micro-services, API, Symfony, .NET Core, Blazor, Xamarin
+- **IA & Data :** Machine Learning, Réseaux de neurones, LLM, RAG, Vision par ordinateur (YOLO), Power BI, DigDash, Tableaux de bord, ETL, Scraping
+- **Systèmes, réseaux et infrastructure :** Unix/Linux, TCP/IP, Sécurité informatique, Docker, Conteneurisation, CI/CD, DevOps
+- **Bases de données :** PostgreSQL, MySQL
+- **Méthodologies et outils :** Agile, Scrum, Gestion de projet, UML, Git, GitHub
 
 ---
 
 ### 🎨 Portfolio
 
-Portfolio moderne avec thème sombre et accents orange, présentant mes projets et compétences.
+Portfolio moderne avec thème sombre et accents orange, présentant mes projets, compétences et parcours.
 - **Design :** Thème dark avec accents orange vibrants
 - **Fonctionnalités :** Bilingue (FR/EN), responsive, cartes animées
 - **Tech :** HTML/CSS/JS vanilla, CSS Grid/Flexbox moderne
@@ -119,5 +113,7 @@ Portfolio moderne avec thème sombre et accents orange, présentant mes projets 
 ---
 
 ### 📊 Me contacter
+
+📧 [gonosyannis@gmail.com](mailto:gonosyannis@gmail.com) | 📱 07 81 00 66 79
 
 [GitHub](https://github.com/GnsYnns) | [LinkedIn](https://www.linkedin.com/in/yannis-gonos-49b23423a/) | [Portfolio](https://gnsynns.github.io/gnsynns/)
