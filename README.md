@@ -51,9 +51,7 @@ Modern dark-themed portfolio with orange accent colors, showcasing my projects, 
 
 ### 📊 Stats & Contact
 
-📧 [gonosyannis@gmail.com](mailto:gonosyannis@gmail.com) | 📱 +33 7 81 00 66 79
-
-[GitHub](https://github.com/GnsYnns) | [LinkedIn](https://www.linkedin.com/in/yannis-gonos-49b23423a/) | [Portfolio](https://gnsynns.github.io/gnsynns/)
+📧 [gonosyannis@gmail.com](mailto:gonosyannis@gmail.com) | [GitHub](https://github.com/GnsYnns) | [LinkedIn](https://www.linkedin.com/in/yannis-gonos-49b23423a/) | [Portfolio](https://gnsynns.github.io/gnsynns/)
 
 ---
 
@@ -114,6 +112,4 @@ Portfolio moderne avec thème sombre et accents orange, présentant mes projets,
 
 ### 📊 Me contacter
 
-📧 [gonosyannis@gmail.com](mailto:gonosyannis@gmail.com) | 📱 07 81 00 66 79
-
-[GitHub](https://github.com/GnsYnns) | [LinkedIn](https://www.linkedin.com/in/yannis-gonos-49b23423a/) | [Portfolio](https://gnsynns.github.io/gnsynns/)
+📧 [gonosyannis@gmail.com](mailto:gonosyannis@gmail.com) | [GitHub](https://github.com/GnsYnns) | [LinkedIn](https://www.linkedin.com/in/yannis-gonos-49b23423a/) | [Portfolio](https://gnsynns.github.io/gnsynns/)
